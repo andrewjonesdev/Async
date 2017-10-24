@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button Content="Sync Button" HorizontalAlignment="Left" Margin="235,133,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Async Button" HorizontalAlignment="Left" Margin="235,103,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_Top"/>
+        <Button Content="Alt Async Button" HorizontalAlignment="Left" Margin="235,73,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_Top_Alt"/>
+
     </Grid>
 </Window>
